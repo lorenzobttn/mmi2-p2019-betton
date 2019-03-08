@@ -7,13 +7,18 @@
     text-align: center;
   
     &--1 {
-      background: red;
+    //   background: #312a22;
+        background: #ccccc9;
+    //   background: #202727;
     }
     
     &--2{
-      background: Teal;
-      height: 65vh;
+      background: #312a22;
     }
+
+    &--3{
+        background: #ccccc9;
+      }
   
   }
   
