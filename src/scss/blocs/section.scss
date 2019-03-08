@@ -5,20 +5,27 @@
 .section {
     // height: 65vh;
     text-align: center;
+    color: white;
   
     &--1 {
-    //   background: #312a22;
-        background: #ccccc9;
-    //   background: #202727;
+        background: #141514;
     }
     
     &--2{
-      background: #312a22;
+        background: #634d3c;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     &--3{
-        background: #ccccc9;
+        background: #1f211f;
       }
+
+    &--4{
+        background: #634d3c;
+    }
   
   }
   
@@ -28,4 +35,9 @@
     
   .section__text{
     color: grey;
+  }
+
+  .section__desc{
+      text-align: justify;
+      padding: 20px 50px;
   }

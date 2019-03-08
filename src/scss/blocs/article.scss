@@ -20,12 +20,13 @@
 
 
 .gallery--category{
-    padding: 15px 0;
+    padding: 0;
     grid-gap:0;
+    grid-template-rows: 1fr 1fr; 
+    height: 25vh;
 
     .article{
         position: relative;
-        height: 75px;
         background: rgba(0, 0, 0, 0.45);
         background-size:cover;
         background-repeat:no-repeat;
