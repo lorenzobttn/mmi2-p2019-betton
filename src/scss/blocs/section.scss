@@ -1,0 +1,26 @@
+/*===============================
+=            Sections           =
+===============================*/
+
+.section {
+    // height: 65vh;
+    text-align: center;
+  
+    &--1 {
+      background: red;
+    }
+    
+    &--2{
+      background: Teal;
+      height: 65vh;
+    }
+  
+  }
+  
+  .section__title{
+    font-size: 25px;
+  }
+    
+  .section__text{
+    color: grey;
+  }

@@ -1,0 +1,50 @@
+/*===============================
+=            Articles           =
+===============================*/
+
+.box {
+  height: 65vh;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
+  grid-template-rows: 1fr 1fr; 
+  justify-items: center;
+  // align-items: center;
+  grid-gap: 5px;
+  
+  &__item{
+    &__img{
+      max-width: 100%;
+    }
+
+    &__btn{
+      text-decoration: none;
+    }
+
+    // & svg{
+    //   max-width: 35px;
+    //   background: grey;
+    //   fill: white;
+    //   border-radius: 50%;
+    //   padding: 5px;
+    // }
+  }
+}
+
+
+.gallery{
+    
+    padding: 15px 40px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+    grid-gap: 20px;
+}
+
+.article{
+    border: 1px solid black;
+}
+
+.article__cover{
+    max-width: 100%;
+}

@@ -1,8 +1,27 @@
-.header {
-  background: gold;
+/*===============================
+=            Variables          =
+===============================*/
 
-  h1 {
-    text-align: center;
-    font-size: 50px;
-  }
-}
+$font-familly: 'Dancing Script', cursive;
+
+
+
+
+
+
+/*===============================
+=            Imports            =
+===============================*/
+
+/* -- vendors -- */
+@import "vendors/reset";
+
+/* -- blocs -- */
+@import "blocs/header";
+@import "blocs/section";
+@import "blocs/article";
+
+
+
+
+
