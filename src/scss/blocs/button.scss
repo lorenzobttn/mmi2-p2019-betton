@@ -1,0 +1,38 @@
+.btn {
+    text-decoration: none;
+    color: $green;
+    border: 2px solid $green;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    // margin: 50px auto;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    background: linear-gradient(to right, #ba1200 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    transition: .5s ease all;
+
+    &:hover {
+        color: white;
+        background-position: left bottom;
+        transition: .5s ease all;
+    }
+}
+
+// .header{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: end;
+//     align-items: center;
+// }
+
+.btn-search{
+    width: 50%;
+    text-align: center;
+    transform: translateY(50%);
+    font-family: $font-bangers;
+    letter-spacing: 2px;
+}

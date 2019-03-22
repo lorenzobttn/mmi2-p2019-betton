@@ -3,19 +3,33 @@
 ===============================*/
 
 .header {
-    font-family: $font-familly;
-    background: #1f211f;
+    font-family: $font-family;
+    background: $red;
   
     position: relative;
-    height: 35vh;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
   
     &__title {
       position: absolute;
+      z-index: 1;
       color: white;
       font-size: 50px;
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
-      
+      font-family: $font-bangers;
+      &:after{
+        z-index: -2;
+        color: $blue;
+        position: absolute;
+        content:'cartoon network';
+        top:5px;
+        left: 5px;
+      }
     }
   }

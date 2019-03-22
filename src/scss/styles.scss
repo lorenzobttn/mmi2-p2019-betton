@@ -2,9 +2,14 @@
 =            Variables          =
 ===============================*/
 
-$font-familly: 'Dancing Script', cursive;
+$font-family: 'Dancing Script', cursive;
+$font-bangers: 'Bangers', cursive;
 
+$black:#141514;
+$green:#1f211f;
 
+$blue:#031927;
+$red:#ba1200;
 
 
 
@@ -17,10 +22,13 @@ $font-familly: 'Dancing Script', cursive;
 @import "vendors/reset";
 
 /* -- blocs -- */
+
 @import "blocs/header";
 @import "blocs/section";
 @import "blocs/article";
+@import "blocs/effects";
 
+@import "blocs/button";
 
 
 
