@@ -26,6 +26,10 @@
       text-align: center;
       transform: translate(-50%,-50%);
       font-family: $font-bangers;
+      @media (min-width: $media--m) {
+        font-size: 75px;
+        white-space: nowrap;
+      }
       &:after{
         z-index: -2;
         color: $blue;
@@ -33,6 +37,9 @@
         content:'cartoon network';
         top:5px;
         left: 5px;
+        @media (min-width: $media--s) {
+          white-space: nowrap;
+        }
       }
     }
   }

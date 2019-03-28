@@ -10,8 +10,11 @@ $green:#1f211f;
 
 $blue:#031927;
 $red:#ba1200;
+$beige:#c0b3a0;
 
-
+$media--s: 655px;
+$media--m: 730px;
+$media--l: 1100px;
 
 
 /*===============================
@@ -20,6 +23,7 @@ $red:#ba1200;
 
 /* -- vendors -- */
 @import "vendors/reset";
+@import "vendors/keyframes";
 
 /* -- blocs -- */
 
@@ -27,6 +31,9 @@ $red:#ba1200;
 @import "blocs/section";
 @import "blocs/article";
 @import "blocs/effects";
+
+@import "blocs/articles";
+@import "blocs/contact";
 
 @import "blocs/button";
 
