@@ -9,17 +9,17 @@
 ===============================*/
 
 html{
-  padding: 5px;
+  background-color: #edd4b2;
 }
 
 body{
-
+  margin: 5px;
 }
 
 .section {
     // height: 65vh;
     text-align: center;
-    color: #cfc7c5;
+    color: #edd4b2;
   
     &--1 {
         background: #031927;
@@ -27,23 +27,16 @@ body{
     }
     
     &--2{
-        background: #fcf2f0;
-        // height: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-bottom: 50px;
+        border: 1px solid black;
     }
 
-    &--3{
-        // background: #89cf89;
-        background: #edd4b2;
-      }
+    &--3{ }
 
-    &--4{
-        // background: #44e3ff;
-        background: #d0a98f;
-    }
+    &--4{ }
   
   }
   
@@ -64,4 +57,5 @@ body{
   .section__desc{
       text-align: center;
       padding: 20px 50px;
+      color: grey;
   }
